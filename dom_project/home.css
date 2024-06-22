@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+#nav {
+  background-color: rgba(140, 0, 255, 0.491);
+  width: 100%;
+  height: 75;
+}
+article {
+  background-color: rgba(100, 5, 124, 0.874);
+  width: 90%;
+  height: 75px;
+  margin: 0 auto;
+  display: flex;
+}
+#logo {
+  height: 75px;
+  width: 25%;
+  background-color: rgba(83, 225, 17, 0.945);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu {
+  height: 75px;
+  width: 50%;
+  background-color: rgba(17, 145, 225, 0.945);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#auth {
+  height: 75px;
+  width: 25%;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#loginBtn {
+  height: 50px;
+  width: 100px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(106, 106, 131);
+  color: white;
+}
+
+#gituser img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
+#gituser {
+  background-color: rgb(27, 67, 75);
+  width: 100%;
+}
+#gituser div {
+  /* background-color: rgb(27, 67, 75); */
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#gituser section {
+  margin-left: 40px;
+  border: 2px;
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(83, 161, 31);
+  color: white;
+}
+
+#git {
+  border-radius: 8px;
+  height: 30px;
+  background-color: orange;
+}
+
+section #profile {
+  border-radius: 8px;
+  height: 30px;
+  background-color: rgb(207, 26, 126);
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+section a {
+  text-decoration: none;
+}
